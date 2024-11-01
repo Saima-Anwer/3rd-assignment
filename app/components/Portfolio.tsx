@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 const Portfolio = () => {
   return (
     <section id="portfolio" className="bg-white py-16">
@@ -8,7 +9,7 @@ const Portfolio = () => {
           {/* TypeScript Project */}
           <div className="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
             <Image
-              src="/images/typescript.png"
+              src="/images/typescript.webp"
               alt="TypeScript"
               width={350}
               height={350}
@@ -23,7 +24,7 @@ const Portfolio = () => {
           {/* Node.js Project */}
           <div className="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
           <Image
-              src="/images/nodejsa.png"
+              src="/images/nodejsa.webp"
               alt="NodeJS"
               width={350}
               height={350}
@@ -38,7 +39,7 @@ const Portfolio = () => {
           {/* Next.js Project */}
           <div className="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
           <Image
-              src="/images/nextjs.png"
+              src="/images/nextjs.webp"
               alt="Next.JS"
               width={350}
               height={350}

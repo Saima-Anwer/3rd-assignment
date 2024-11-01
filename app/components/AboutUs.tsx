@@ -3,7 +3,7 @@ const AboutUs = () => {
   return (
     <section
       id="about-us"
-      className="bg-[url('/images/coding-bg-1.png')] bg-cover bg-center bg-fixed text-white py-20"
+      className="text-white py-20"
     >
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-6">About Us</h2>

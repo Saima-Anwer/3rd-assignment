@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import AboutUs from './components/AboutUs';
 import Portfolio from "./components/Portfolio";
 import ContactUs from './components/ContactUs';
+import background from "../public/images/coding-bg-1.webp"
 
 export const metadata: Metadata = {
   title: 'My Landing Page',
@@ -14,7 +15,11 @@ export const metadata: Metadata = {
 
 const Home = () => {
   return (
-    <div>
+    <div
+      className="flex flex-col min-h-screen bg-cover bg-center"
+      style={{ backgroundImage: "url('/images/coding-bg-1.webp')" }}
+    >
+      
       <Header />
       <main>
         <AboutUs />
@@ -27,6 +32,9 @@ const Home = () => {
 };
 
 export default Home;
+
+
+ 
 
 
  
